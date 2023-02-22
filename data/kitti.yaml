@@ -1,0 +1,6 @@
+train: /content/yolov5/train.txt
+val: /content/yolov5/val.txt
+
+# Classes
+nc: 8  # number of classes
+names: ['Car', 'Van', 'Truck', 'Pedestrian', 'Person_sitting', 'Cyclist', 'Tram', 'DontCare']  # class names
